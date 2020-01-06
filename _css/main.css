@@ -10,10 +10,10 @@
     }
     img {
         width: 753px !important;
-        height: 754px !important;
+        height: 672px !important;
     }
     .contain {
-        margin-left: 2% !important;
+        /* margin-left: 2% !important; */
         margin-right: 2% !important;
     }
     .formPad {
@@ -29,7 +29,7 @@
         border-bottom-right-radius: 20px;
     }
     footer {
-        position: fixed;
+        position: absolute;
         bottom: 0;
         padding-left: 1% !important;
         padding-right: 1% !important;
@@ -70,40 +70,46 @@
     .h {
         font-weight: normal;
     }
+}
+
+@media only screen and (max-width: 600px) {
     img {
-        width: 200px;
-        height: 100px;
+        width: 100% !important;
+        height: 100% !important;
     }
-}
-img {
-    width: 100% !important;
-    height: 100% !important;
-}
-
-.labelFill {
-    padding-top: 10px;
-    color: #D82A4E;
-}
-
-.col-sm-4 > div{
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.left{
-    float: left !important;
-    padding-left: 8px !important;
-}
-
-.centered{
-    float: left !important;
-    padding-left: 8px !important;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    padding-left: 1% !important;
-    padding-right: 1% !important;
-    width: 100% !important;
+    .labelFill {
+        padding-top: 10px;
+        color: #D82A4E;
+    }
+    .col-sm-4>div {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .left {
+        float: left !important;
+        padding-left: 8px !important;
+    }
+    .centered {
+        float: left !important;
+        padding-left: 8px !important;
+    }
+    #pageOne {
+        display: inline;
+    }
+    #pageTwo {
+        display: none;
+    }
+    .clicked {
+        width: 38%;
+    }
+    #backBTN {
+        opacity: 70%;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        padding-left: 1% !important;
+        padding-right: 1% !important;
+        width: 100% !important;
+    }
 }
