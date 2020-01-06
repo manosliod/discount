@@ -1,91 +1,109 @@
-body {
-    padding: 0 !important;
-    margin: 0 !important;
+@media only screen and (min-width: 600px) {
+    body {
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    header {
+        box-shadow: 0 .2rem 0.5rem rgba(0, 0, 0, .15)!important;
+    }
+    img {
+        width: 753px !important;
+        height: 754px !important;
+    }
+    .contain {
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
+    .formPad {
+        padding-top: 50%;
+    }
+    .labelFill {
+        color: #D82A4E;
+    }
+    .roundButton {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        padding-left: 1% !important;
+        padding-right: 1% !important;
+        padding-bottom: 2px !important;
+        width: 100% !important;
+    }
+    .form-control {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+    }
+    .form-control:focus {
+        box-shadow: none;
+        border: 1px solid #ced4da;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+    #pageOne {
+        display: inline;
+    }
+    #pageTwo {
+        display: none;
+    }
+    .clicked {
+        width: 38%;
+    }
+    #backBTN {
+        opacity: 70%;
+    }
+    input[type="text"]:disabled {
+        background: white;
+    }
+    .vl {
+        border-left: 2px solid #ced4da;
+    }
+    .h {
+        font-weight: normal;
+    }
+    img {
+        width: 200px;
+        height: 100px;
+    }
+}
+img {
     width: 100% !important;
     height: 100% !important;
-    background-image: url('/Discount/_img/bgIMG.jpg');
-    background-repeat: no-repeat;
-    background-size: 1003.04px 753px;
-}
-
-header {
-    box-shadow: 0 .2rem 0.5rem rgba(0, 0, 0, .15)!important;
-}
-
-.contain {
-    margin-left: 2% !important;
-    margin-right: 2% !important;
-}
-
-.formPad {
-    padding-top: 50%;
 }
 
 .labelFill {
+    padding-top: 10px;
     color: #D82A4E;
 }
 
-.roundButton {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+.col-sm-4 > div{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.left{
+    float: left !important;
+    padding-left: 8px !important;
+}
+
+.centered{
+    float: left !important;
+    padding-left: 8px !important;
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     padding-left: 1% !important;
     padding-right: 1% !important;
-    padding-bottom: 2px !important;
     width: 100% !important;
-}
-
-.form-control {
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-radius: 0;
-}
-
-.form-control:focus {
-    box-shadow: none;
-    border: 1px solid #ced4da;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-}
-
-#pageOne {
-    display: inline;
-}
-
-#pageTwo {
-    display: none;
-}
-
-.clicked {
-    width: 38%;
-}
-
-#backBTN {
-    opacity: 70%;
-}
-
-input[type="text"]:disabled {
-    background: white;
-}
-
-.vl {
-    border-left: 2px solid #ced4da;
-    
-}
-
-.h{
-    font-weight: normal;
-}
-
-img{
-    width: 200px;
-    height: 100px;
 }
