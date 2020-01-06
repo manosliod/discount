@@ -1,0 +1,11 @@
+.credentials{
+    background-color: black;
+}
+
+input[type="text"]:disabled{
+    background-color: black;
+    color: white;
+}
+label{
+    color: white;
+}
