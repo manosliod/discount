@@ -10,64 +10,54 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/Discount/_css/main.css">
+    <link rel="stylesheet" href="/_css/main.css">
     <!-- <link rel="stylesheet" media='screen and (min-width: 200px) and (max-width: 400px)' href='mobileMain.css' /> -->
-
-    
-
+	
     <title>Discount - Login</title>
 </head>
 
 <body>
 
-    <main class="contain">
-        <div class="row">
+    <main class="container-fluid px-0">
+        <div class="row w-100 m-0">
 
-            <div class="col-sm-8">
-                <img src="/Discount/_img/bgIMG.jpg" alt="">
+            <div class="col-md-12 col-lg-8 px-0">
+                <img class="image" src="/_img/bgIMG.jpg" alt="">
             </div>
 
-            <div class="col-sm-4">
-
-                <div class="row-12">
-                    <div class="formPad">
-                        <form>
-                            <div class="form-group row justify-content-center">
-                                <h5 class="labelFill">Είσοδος Χρήστη</h5>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="username" placeholder="Όνομα χρήστη">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="password" placeholder="Κωδικός">
-                            </div>
-                            <div class="form-group">
-                                <div class="row justify-content-center">
-                                    <button type="submit" class="btn btn-primary roundButton w-50">Σύνδεση</button>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <a href="" class="left">Επαναφορά κωδικού</a>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <a href="/Discount/templates/register.html" class="float-right left">Δημιουργία λογαριασμού</a>
-                                    </div>
-                                </div>
-
-                            </div>
-
-
-                        </form>
+            <div class="col-md-12 col-lg-4 align-self-center mt-3 mt-lg-0">
+                <form>
+                    <div class="form-group row justify-content-center">
+                        <h5 class="labelFill">Είσοδος Χρήστη</h5>
                     </div>
-                </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="username" placeholder="Όνομα χρήστη">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="password" placeholder="Κωδικός">
+                    </div>
+                    <div class="form-group">
+                        <div class="row justify-content-center">
+                            <button type="submit" class="btn btn-primary roundButton w-50">Σύνδεση</button>
+                        </div>
+                    </div>
 
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <a href="" class="left">Επαναφορά κωδικού</a>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="/templates/register.html" class="float-right left">Δημιουργία λογαριασμού</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
+        </div>
     </main>
 
-    <footer>
+    <footer class="bg-white position-fixed">
         <div class="row">
             <div class="col-sm-6">
                 <span class="labelFill centered">Copyright ©2020 All rights reserved!</span>
@@ -79,8 +69,7 @@
         </div>
 
     </footer>
-
-
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
